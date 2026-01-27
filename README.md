@@ -13,6 +13,7 @@ Each project includes:
 
 ## Outcomes Research Analysis of Cardiac Surgery Patients
 **Tools:** SAS
+
 **Methods:** Data management, descriptive statistics, PROC FREQ/TABULATE/MEANS, inferential testing
 
 This project presents an outcomes research analysis based on simulated cardiac surgery data, completed using SAS. The analysis involved cleaning and merging multiple clinical datasets, reconstructing time-varying age at each event date, and identifying same-day surgical procedure combinations using BY-group processing and retained counters.
