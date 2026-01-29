@@ -1,12 +1,6 @@
 # Outcomes Research Analysis in SAS
 
-## Overview
-This project presents an outcomes research analysis conducted using SAS,
-based on a simulated hospital cardiac surgery dataset.
-
-The goal was to prepare clean, analysis-ready data and generate
-tables and statistical summaries for presentation to a principal
-investigator.
+This SAS-based project demonstrates a complete outcomes research workflow using simulated clinical data from a cardiothoracic surgery cohort. The analysis required advanced data management techniques, including reconstruction of dynamic age variables, identification of multiple same-day procedures, and integration of patient-level smoking history across records. Results were summarized using publication-quality tables and figures, and inferential analyses indicated a significant association between smoking history and younger age at death.
 
 ## Data Description
 Two datasets were used:
@@ -19,8 +13,6 @@ Two datasets were used:
 - **SMOKING**
   - Patient ID
   - History of smoking (yes/no)
-
-To protect privacy, raw data are not included.
 
 ## Key Data Challenges
 - Reconstructing **time-varying age** for each event date
