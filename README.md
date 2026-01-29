@@ -9,7 +9,15 @@ Each project includes:
 - Code 
 - Interpretation of results
 
-## Projects
+# Projects
+
+## Survival Analysis: Midodrine Use and ED Transfer
+**Tools:** R  
+**Methods:** Survival analysis, time-dependent Cox proportional hazards models
+
+This project examines the association between midodrine use and time to transfer from the emergency department using a retrospective cohort design. A time-dependent Cox proportional hazards model was implemented to appropriately handle delayed drug administration during follow-up.
+
+After adjustment for clinical covariates, midodrine use was not significantly associated with transfer time, while several vital signs and clinical indicators were found to be important predictors. This project demonstrates advanced survival analysis techniques and handling of time-varying exposures in R.
 
 ## Outcomes Research Analysis of Cardiac Surgery Patients
 **Tools:** SAS
